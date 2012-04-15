@@ -1,0 +1,304 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2B5F89FF153B5F2F000839AC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B5F89FE153B5F2F000839AC /* UIKit.framework */; };
+		2B5F8A01153B5F2F000839AC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B5F8A00153B5F2F000839AC /* Foundation.framework */; };
+		2B5F8A03153B5F2F000839AC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B5F8A02153B5F2F000839AC /* CoreGraphics.framework */; };
+		2B5F8A09153B5F2F000839AC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2B5F8A07153B5F2F000839AC /* InfoPlist.strings */; };
+		2B5F8A0B153B5F2F000839AC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B5F8A0A153B5F2F000839AC /* main.m */; };
+		2B5F8A0F153B5F2F000839AC /* MGNAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B5F8A0E153B5F2F000839AC /* MGNAppDelegate.m */; };
+		2B5F8A12153B5F2F000839AC /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B5F8A10153B5F2F000839AC /* MainStoryboard.storyboard */; };
+		2B5F8A15153B5F2F000839AC /* MGNFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B5F8A14153B5F2F000839AC /* MGNFirstViewController.m */; };
+		2B5F8A17153B5F2F000839AC /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B5F8A16153B5F2F000839AC /* first.png */; };
+		2B5F8A19153B5F2F000839AC /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B5F8A18153B5F2F000839AC /* first@2x.png */; };
+		2B5F8A1C153B5F2F000839AC /* MGNSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B5F8A1B153B5F2F000839AC /* MGNSecondViewController.m */; };
+		2B5F8A1E153B5F2F000839AC /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B5F8A1D153B5F2F000839AC /* second.png */; };
+		2B5F8A20153B5F2F000839AC /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B5F8A1F153B5F2F000839AC /* second@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2B5F89FA153B5F2F000839AC /* shopfinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = shopfinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B5F89FE153B5F2F000839AC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2B5F8A00153B5F2F000839AC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2B5F8A02153B5F2F000839AC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2B5F8A06153B5F2F000839AC /* shopfinder-Info.plist */ = {isa = PBXFileReference; path = "shopfinder-Info.plist"; sourceTree = "<group>"; };
+		2B5F8A08153B5F2F000839AC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2B5F8A0A153B5F2F000839AC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2B5F8A0C153B5F2F000839AC /* shopfinder-Prefix.pch */ = {isa = PBXFileReference; path = "shopfinder-Prefix.pch"; sourceTree = "<group>"; };
+		2B5F8A0D153B5F2F000839AC /* MGNAppDelegate.h */ = {isa = PBXFileReference; path = MGNAppDelegate.h; sourceTree = "<group>"; };
+		2B5F8A0E153B5F2F000839AC /* MGNAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MGNAppDelegate.m; sourceTree = "<group>"; };
+		2B5F8A11153B5F2F000839AC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		2B5F8A13153B5F2F000839AC /* MGNFirstViewController.h */ = {isa = PBXFileReference; path = MGNFirstViewController.h; sourceTree = "<group>"; };
+		2B5F8A14153B5F2F000839AC /* MGNFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MGNFirstViewController.m; sourceTree = "<group>"; };
+		2B5F8A16153B5F2F000839AC /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		2B5F8A18153B5F2F000839AC /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		2B5F8A1A153B5F2F000839AC /* MGNSecondViewController.h */ = {isa = PBXFileReference; path = MGNSecondViewController.h; sourceTree = "<group>"; };
+		2B5F8A1B153B5F2F000839AC /* MGNSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MGNSecondViewController.m; sourceTree = "<group>"; };
+		2B5F8A1D153B5F2F000839AC /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		2B5F8A1F153B5F2F000839AC /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2B5F89F7153B5F2F000839AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B5F89FF153B5F2F000839AC /* UIKit.framework in Frameworks */,
+				2B5F8A01153B5F2F000839AC /* Foundation.framework in Frameworks */,
+				2B5F8A03153B5F2F000839AC /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2B5F89EF153B5F2F000839AC = {
+			isa = PBXGroup;
+			children = (
+				2B5F8A04153B5F2F000839AC /* shopfinder */,
+				2B5F89FD153B5F2F000839AC /* Frameworks */,
+				2B5F89FB153B5F2F000839AC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2B5F89FB153B5F2F000839AC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2B5F89FA153B5F2F000839AC /* shopfinder.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2B5F89FD153B5F2F000839AC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2B5F89FE153B5F2F000839AC /* UIKit.framework */,
+				2B5F8A00153B5F2F000839AC /* Foundation.framework */,
+				2B5F8A02153B5F2F000839AC /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2B5F8A04153B5F2F000839AC /* shopfinder */ = {
+			isa = PBXGroup;
+			children = (
+				2B5F8A0D153B5F2F000839AC /* MGNAppDelegate.h */,
+				2B5F8A0E153B5F2F000839AC /* MGNAppDelegate.m */,
+				2B5F8A10153B5F2F000839AC /* MainStoryboard.storyboard */,
+				2B5F8A13153B5F2F000839AC /* MGNFirstViewController.h */,
+				2B5F8A14153B5F2F000839AC /* MGNFirstViewController.m */,
+				2B5F8A16153B5F2F000839AC /* first.png */,
+				2B5F8A18153B5F2F000839AC /* first@2x.png */,
+				2B5F8A1A153B5F2F000839AC /* MGNSecondViewController.h */,
+				2B5F8A1B153B5F2F000839AC /* MGNSecondViewController.m */,
+				2B5F8A1D153B5F2F000839AC /* second.png */,
+				2B5F8A1F153B5F2F000839AC /* second@2x.png */,
+				2B5F8A05153B5F2F000839AC /* Supporting Files */,
+			);
+			path = shopfinder;
+			sourceTree = "<group>";
+		};
+		2B5F8A05153B5F2F000839AC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2B5F8A06153B5F2F000839AC /* shopfinder-Info.plist */,
+				2B5F8A07153B5F2F000839AC /* InfoPlist.strings */,
+				2B5F8A0A153B5F2F000839AC /* main.m */,
+				2B5F8A0C153B5F2F000839AC /* shopfinder-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2B5F89F9153B5F2F000839AC /* shopfinder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B5F8A23153B5F2F000839AC /* Build configuration list for PBXNativeTarget "shopfinder" */;
+			buildPhases = (
+				2B5F89F6153B5F2F000839AC /* Sources */,
+				2B5F89F7153B5F2F000839AC /* Frameworks */,
+				2B5F89F8153B5F2F000839AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = shopfinder;
+			productName = shopfinder;
+			productReference = 2B5F89FA153B5F2F000839AC /* shopfinder.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2B5F89F1153B5F2F000839AC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MGN;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 2B5F89F4153B5F2F000839AC /* Build configuration list for PBXProject "shopfinder" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2B5F89EF153B5F2F000839AC;
+			productRefGroup = 2B5F89FB153B5F2F000839AC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2B5F89F9153B5F2F000839AC /* shopfinder */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2B5F89F8153B5F2F000839AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B5F8A09153B5F2F000839AC /* InfoPlist.strings in Resources */,
+				2B5F8A12153B5F2F000839AC /* MainStoryboard.storyboard in Resources */,
+				2B5F8A17153B5F2F000839AC /* first.png in Resources */,
+				2B5F8A19153B5F2F000839AC /* first@2x.png in Resources */,
+				2B5F8A1E153B5F2F000839AC /* second.png in Resources */,
+				2B5F8A20153B5F2F000839AC /* second@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2B5F89F6153B5F2F000839AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B5F8A0B153B5F2F000839AC /* main.m in Sources */,
+				2B5F8A0F153B5F2F000839AC /* MGNAppDelegate.m in Sources */,
+				2B5F8A15153B5F2F000839AC /* MGNFirstViewController.m in Sources */,
+				2B5F8A1C153B5F2F000839AC /* MGNSecondViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2B5F8A07153B5F2F000839AC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B5F8A08153B5F2F000839AC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2B5F8A10153B5F2F000839AC /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B5F8A11153B5F2F000839AC /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2B5F8A21153B5F2F000839AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2B5F8A22153B5F2F000839AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2B5F8A24153B5F2F000839AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "shopfinder/shopfinder-Prefix.pch";
+				INFOPLIST_FILE = "shopfinder/shopfinder-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2B5F8A25153B5F2F000839AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "shopfinder/shopfinder-Prefix.pch";
+				INFOPLIST_FILE = "shopfinder/shopfinder-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2B5F89F4153B5F2F000839AC /* Build configuration list for PBXProject "shopfinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B5F8A21153B5F2F000839AC /* Debug */,
+				2B5F8A22153B5F2F000839AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B5F8A23153B5F2F000839AC /* Build configuration list for PBXNativeTarget "shopfinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B5F8A24153B5F2F000839AC /* Debug */,
+				2B5F8A25153B5F2F000839AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2B5F89F1153B5F2F000839AC /* Project object */;
+}
