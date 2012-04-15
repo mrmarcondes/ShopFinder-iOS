@@ -20,6 +20,8 @@
 		2B5F8A1C153B5F2F000839AC /* MGNSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B5F8A1B153B5F2F000839AC /* MGNSecondViewController.m */; };
 		2B5F8A1E153B5F2F000839AC /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B5F8A1D153B5F2F000839AC /* second.png */; };
 		2B5F8A20153B5F2F000839AC /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B5F8A1F153B5F2F000839AC /* second@2x.png */; };
+		2B5F8A27153B5F54000839AC /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B5F8A26153B5F54000839AC /* icon.png */; };
+		2B5F8A29153B5F68000839AC /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B5F8A28153B5F68000839AC /* Default.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,21 +29,23 @@
 		2B5F89FE153B5F2F000839AC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		2B5F8A00153B5F2F000839AC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		2B5F8A02153B5F2F000839AC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		2B5F8A06153B5F2F000839AC /* shopfinder-Info.plist */ = {isa = PBXFileReference; path = "shopfinder-Info.plist"; sourceTree = "<group>"; };
+		2B5F8A06153B5F2F000839AC /* shopfinder-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "shopfinder-Info.plist"; sourceTree = "<group>"; };
 		2B5F8A08153B5F2F000839AC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2B5F8A0A153B5F2F000839AC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		2B5F8A0C153B5F2F000839AC /* shopfinder-Prefix.pch */ = {isa = PBXFileReference; path = "shopfinder-Prefix.pch"; sourceTree = "<group>"; };
-		2B5F8A0D153B5F2F000839AC /* MGNAppDelegate.h */ = {isa = PBXFileReference; path = MGNAppDelegate.h; sourceTree = "<group>"; };
+		2B5F8A0C153B5F2F000839AC /* shopfinder-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "shopfinder-Prefix.pch"; sourceTree = "<group>"; };
+		2B5F8A0D153B5F2F000839AC /* MGNAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MGNAppDelegate.h; sourceTree = "<group>"; };
 		2B5F8A0E153B5F2F000839AC /* MGNAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MGNAppDelegate.m; sourceTree = "<group>"; };
 		2B5F8A11153B5F2F000839AC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		2B5F8A13153B5F2F000839AC /* MGNFirstViewController.h */ = {isa = PBXFileReference; path = MGNFirstViewController.h; sourceTree = "<group>"; };
+		2B5F8A13153B5F2F000839AC /* MGNFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MGNFirstViewController.h; sourceTree = "<group>"; };
 		2B5F8A14153B5F2F000839AC /* MGNFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MGNFirstViewController.m; sourceTree = "<group>"; };
 		2B5F8A16153B5F2F000839AC /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
 		2B5F8A18153B5F2F000839AC /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
-		2B5F8A1A153B5F2F000839AC /* MGNSecondViewController.h */ = {isa = PBXFileReference; path = MGNSecondViewController.h; sourceTree = "<group>"; };
+		2B5F8A1A153B5F2F000839AC /* MGNSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MGNSecondViewController.h; sourceTree = "<group>"; };
 		2B5F8A1B153B5F2F000839AC /* MGNSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MGNSecondViewController.m; sourceTree = "<group>"; };
 		2B5F8A1D153B5F2F000839AC /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
 		2B5F8A1F153B5F2F000839AC /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		2B5F8A26153B5F54000839AC /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		2B5F8A28153B5F68000839AC /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +65,8 @@
 		2B5F89EF153B5F2F000839AC = {
 			isa = PBXGroup;
 			children = (
+				2B5F8A28153B5F68000839AC /* Default.png */,
+				2B5F8A26153B5F54000839AC /* icon.png */,
 				2B5F8A04153B5F2F000839AC /* shopfinder */,
 				2B5F89FD153B5F2F000839AC /* Frameworks */,
 				2B5F89FB153B5F2F000839AC /* Products */,
@@ -172,6 +178,8 @@
 				2B5F8A19153B5F2F000839AC /* first@2x.png in Resources */,
 				2B5F8A1E153B5F2F000839AC /* second.png in Resources */,
 				2B5F8A20153B5F2F000839AC /* second@2x.png in Resources */,
+				2B5F8A27153B5F54000839AC /* icon.png in Resources */,
+				2B5F8A29153B5F68000839AC /* Default.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,6 +305,7 @@
 				2B5F8A25153B5F2F000839AC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
